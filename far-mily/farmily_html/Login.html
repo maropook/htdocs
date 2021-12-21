@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>ログイン</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="farmily">
+    <div class="my-container">
+      <main id="app">
+        <header class="container">
+          <div class="icon"><img src="img/farmily_logo.png" class="smile" alt=""></div>
+          <a class="icon"><img src="img/clova_logo.png" class="notification" alt=""></a>
+        </header>
+
+        <div class="form-wrapper">
+          <div class="form-logo"><img src="img/clova_logo.png" alt=""></div>
+          <h1>Twitterにログイン</h1>
+
+          <form id="loginForm" name="loginForm" action="" method="POST">
+            <div class="form-item">
+              <label for="userid"></label><input type="text" id="userid" name="userid" placeholder="ログインIDを入力" value="">
+            </div>
+            <div class="form-item">
+              <label for="password"></label><input type="password" id="password" name="password" value=""
+                placeholder="パスワードを入力">
+            </div>
+            <div class="button-panel">
+              <input type="submit" class="button" id="login" name="login" value="ログイン">
+              <br>
+            </div>
+          </form>
+          <form name="jump" action="SignUp.php">
+            <div class="form-footer">
+              <p>アカウントがない場合はこちら</p>
+              <p><a href="javascript:document.jump.submit()">新規登録</a></p>
+            </div>
+          </form>
+        </div>
+
+      </main>
+      <footer id="footer">
+        <ul>
+          <li>
+            <a href="">
+              <p>far-milyへようこそ</p>
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+  </div>
+</body>
+
+</html>

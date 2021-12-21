@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>アカウントを作成</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="my-container">
+    <main id="app">
+      <header class="container">
+        <div class="icon"><img src="img/farmily_logo.png" class="smile" alt=""></div>
+        <a class="icon"><img src="img/clova_logo.png" class="notification" alt=""></a>
+      </header>
+      <div class="form-wrapper">
+        <div class="form-logo"><img src="img/clova_logo.png" alt=""></div>
+        <h1>far-mily新規登録</h1>
+        <form id="loginForm" name="loginForm" action="" method="POST">
+          <div class="form-item">
+            <label for="username"></label><input type="text" id="username" name="username" placeholder="ユーザ名を入力"
+              value="">
+          </div>
+          <div class="form-item">
+            <label for="password"></label><input type="password" id="password" name="password" value=""
+              placeholder="パスワードを入力">
+          </div>
+          <div class="form-item">
+            <label for="password2"></label><input type="password" id="password2" name="password2" value=""
+              placeholder="再度パスワードを入力">
+          </div>
+          <div class="button-panel">
+            <input type="submit" class="button" id="signUp" name="signUp" value="新規登録">
+            <br>
+          </div>
+        </form>
+        <form name="jump" action="Login.php">
+          <div class="form-footer">
+            <p><a href="javascript:document.jump.submit()">ログイン画面に戻る</a></p>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer id="footer">
+      <ul>
+        <li>
+          <a href="">
+            <p>far-milyへようこそ</p>
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
